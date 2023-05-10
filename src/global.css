@@ -1,0 +1,19 @@
+@import "./assets/style/font";
+@tailwind base;
+@tailwind components;
+@font-face {
+    font-family: "IRANSans";
+    src: url("./assets/fonts/woff2/IRANSansWeb\(FaNum\).woff2") format("woff2");
+}
+
+body {
+    font-family: "IRANSans" !important;
+  
+  }
+  
+  * {
+    font-family: "IRANSans" !important;
+    scrollbar-width: thin;
+    scrollbar-color: #0d5c75 #a5d1e1;
+  }
+@tailwind utilities;
